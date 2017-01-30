@@ -1,0 +1,160 @@
+@charset 'UTF-8';
+@import url(https://fonts.googleapis.com/css?family=Abel);
+@import "compass";
+@media (min-width:769px){
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    background-color: #f0f8ff;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.block-center,
+section .container,
+#skills 
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.abel,
+section h2,
+#skills h3,
+#works .works-box a .works-box-inner .button-readmore
+{
+    font-family: 'Abel', sans-serif;
+}
+
+.uppercase,
+section h2,
+#skills h3,
+#works .works-box a .works-box-inner .button-readmore
+{
+    text-transform: uppercase;
+}
+
+.top{
+    width:100%;
+    height:500px;
+    background-size: cover;
+    background-position: center;
+    background-image:url(https://static.pexels.com/photos/71940/water-drop-splashing-motion-71940.jpeg)
+}
+
+section
+{
+    padding: 60px 0;
+}
+section .container .btn
+{
+    width: 90%;
+}
+section h2
+{
+    font-size: 32px;
+    font-size: 3.2rem;
+}
+
+#text
+{
+    background-color:#f0f8ff;
+}
+#text .container
+{
+    display: -webkit-flex;
+    display:         flex;
+    justify-content: space-between;
+}
+
+#text .text-box
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 32%;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: white;
+}
+#text h1{
+    text-align:center;
+    font-size: 50px
+}
+#text h3
+{
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: gold;
+}
+
+
+#contact{
+    background-color:#191970;
+    color:white;
+}
+
+.container{
+    padding-top:50px;
+    padding-right:30px;
+    padding-left:30px;
+}
+#contact p{
+    text-align: center;
+    padding-bottom:20px;
+}
+
+.btn{
+    width:100%;
+    text-align:center;
+}
+.text-btn{
+              margin-left: auto;
+              margin-right: auto;
+              width:10%;
+              background-color:gold;
+              border-radius:10px;
+              color:black;
+              
+}
+
+  footer {
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  border: solid 1px skyblue;
+  margin: 10px;
+  flex: 1;
+}
+
+}
+
+
+
